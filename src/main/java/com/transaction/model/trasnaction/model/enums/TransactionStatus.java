@@ -3,7 +3,8 @@ package com.transaction.model.trasnaction.model.enums;
 public enum TransactionStatus {
 
     PENDING(1, "PENDING"),
-    COMPLETED(2, "COMPLETED");
+    COMPLETED(2, "COMPLETED"),
+    CANCELED(2, "CANCELED");
 
 
     private final int value;
